@@ -28,7 +28,7 @@ Servidor completo con frontend + backend API + Claude AI integrado.
    - **Start Command**: `npm start`
    - **Environment**: Node
 5. Agrega la variable de entorno:
-   - `CLAUDE_API_KEY`: `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`
+   - `CLAUDE_API_KEY`: `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`
 6. Clic en **Create Web Service**
 7. Espera 2-3 minutos a que termine el deploy
 
