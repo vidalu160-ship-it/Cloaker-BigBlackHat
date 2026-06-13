@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: phantom-cloak
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CLAUDE_API_KEY
+        value: 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
+      - key: CLAUDE_MODEL
+        value: claude-sonnet-4-20250514
+      - key: NODE_ENV
+        value: production
+    plan: free
