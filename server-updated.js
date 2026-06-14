@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const CLAUDE_API_KEY = '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';
+const CLAUDE_API_KEY = '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';
 const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
 
 const SYSTEM_PROMPT = `Eres PhantomAI, un asistente experto especializado en Phantom Cloak v2.0, un cloaker empresarial para Google Ads con deteccion inteligente y aprendizaje continuo.
